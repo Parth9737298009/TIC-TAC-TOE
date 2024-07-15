@@ -1,0 +1,55 @@
+.hd{
+    color: #FF4500;
+    font-size: 45px;
+    text-shadow: 0 0 5px;
+}
+
+#b1 , #b2 , #b3 , #b4 , #b5 , #b6 , #b7 , #b8 , #b9 {
+    width: 80px;
+    height: 52px;
+    margin: auto;
+    border: 2px solid;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0 0 5px;
+    animation: 5s ppp linear infinite;
+}
+
+/* RESET Button */
+#but{
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 2px solid skyblue;
+    margin: auto;
+    border-radius: 20px;
+    font-family: sans-serif;
+    background-color: skyblue;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 5px black;
+}
+
+#print{
+    font-family: "Times New Roman";
+    color: blue;
+    font-size: 20px;
+}
+
+#main{
+    text-align: center;
+}
+
+#ins {
+    font-family: "Times New Roman";
+    color: blue;
+    font-size: 20px;
+}
+
+@keyframes ppp {
+    0%{color: red;}
+    50%{color: blue;}
+    100%{color: red;}
+}
